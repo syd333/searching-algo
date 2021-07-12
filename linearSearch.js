@@ -25,3 +25,5 @@ function linearSearch(arr, val){
 // linearSearch([10, 15, 20, 25, 30], 15)
 // linearSearch([100], 100)
 // linearSearch([1, 2, 3, 4, 5], 6)
+
+// 0(N) LINEAR 
