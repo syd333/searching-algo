@@ -8,14 +8,20 @@
 function linear (arr, val) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === val) {
-            return arr[i]
+            return i
         } 
-        return -1
+        return -1 
+        // still in for loop
     }
 }
 
 function linearSearch(arr, val){
-
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === val) {
+            return i
+        }
+    }
+    return -1
   }
 
 // linearSearch([10, 15, 20, 25, 30], 15)
