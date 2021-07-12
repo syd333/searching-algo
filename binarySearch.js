@@ -12,3 +12,10 @@
     // if the value is too small, move the left pointer up
     // if the value is too large, move the right pointer down
 // if you never find the value, return -1
+
+function binarySearch(arr, val){
+    
+  }
+
+  binarySearch([5, 6, 10, 13, 14, 18, 30, 34, 25, 37, 40, 44, 64, 79, 84, 86], 100) // -1
+  binarySearch([5, 6, 10, 13, 14, 18, 30, 34, 35, 37, 40, 44, 64, 79, 84, 86, 95, 96, 98, 99], 10) // 2 
