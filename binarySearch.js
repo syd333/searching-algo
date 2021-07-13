@@ -14,7 +14,12 @@
 // if you never find the value, return -1
 
 function binarySearch(arr, val){
-    
+    let start = 0;
+    let end = arr.length - 1;
+    let middle = Math.floor((start + end) / 2)
+    for (let i = 0; i < arr.length; i++) {
+
+    }
   }
 
   binarySearch([5, 6, 10, 13, 14, 18, 30, 34, 25, 37, 40, 44, 64, 79, 84, 86], 100) // -1
